@@ -33,7 +33,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'testdb',
-    #'corsheaders',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
