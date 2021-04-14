@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'testdb',
+    'corsheaders',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -82,9 +83,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'bank', 
-        'USER': 'lriccgiapekqgy', 
-        'PASSWORD': '907c7df16a9a9498076619faa471193521659bdd0aab33c0fe0183108eb01072',
-        'HOST': 'ec2-52-50-171-4.eu-west-1.compute.amazonaws.com', 
+        'USER': 'postgres', 
+        'PASSWORD': '1234',
+        'HOST': '127.0.0.1', 
         'PORT': '5432',
     }
 }
